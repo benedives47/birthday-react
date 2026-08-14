@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#eef6e7"/>
+    <stop offset="1" stop-color="#fffaf5"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="1000" fill="url(#g)"/>
+<circle cx="120" cy="130" r="58" fill="#9bb878" opacity=".35"/>
+<circle cx="680" cy="210" r="95" fill="#9bb878" opacity=".28"/>
+<rect x="90" y="285" width="620" height="500" rx="38" fill="#ffffff" opacity=".88"/>
+<circle cx="400" cy="470" r="115" fill="#9bb878" opacity=".72"/>
+<path d="M330 470 C350 420 450 420 470 470 C450 540 350 540 330 470Z" fill="#fff"/>
+<text x="400" y="670" text-anchor="middle" font-family="Georgia,serif" font-size="44" fill="#634d43">Memory 02</text>
+<text x="400" y="725" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#8c7469">replace this with your photo</text>
+<text x="400" y="900" text-anchor="middle" font-family="Georgia,serif" font-size="70" fill="#9bb878" opacity=".55">♡</text>
+</svg>
