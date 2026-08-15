@@ -80,7 +80,11 @@ export const siteData = {
       rotate: 2,
     },
   ],
-
+video: {
+    title: "A Little Memory 🎥",
+    subtitle: "A few seconds of us, but a memory I'll keep forever.",
+    src: `${base}videos/prewed.mp4`,
+  },
   letter: {
     greeting: "Dear Eca,",
 

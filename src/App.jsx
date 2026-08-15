@@ -7,6 +7,7 @@ import Gallery from "./sections/Gallery";
 import Letter from "./sections/Letter";
 import Gift from "./sections/Gift";
 import Ending from "./sections/Ending";
+import VideoSection from "./components/VideoSection";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Hero />
         <Story />
         <Gallery />
+        <VideoSection />
         <Letter />
         <Gift />
         <Ending />
