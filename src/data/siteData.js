@@ -1,8 +1,11 @@
+const base = import.meta.env.BASE_URL;
+
 export const siteData = {
   name: "Eca",
   shortName: "ECA",
-  heroImage: "/photos/hero.jpeg",
-  music: "/music/birthday.mp3",
+
+  heroImage: `${base}photos/hero.jpeg`,
+  music: `${base}music/birthday.mp3`,
 
   hero: {
     eyebrow: "Happy Birthday",
@@ -15,23 +18,25 @@ export const siteData = {
     {
       date: "A Beautiful Memory",
       title: "My Favorite Person 💗",
-      image: "/photos/01.jpeg",
+      image: `${base}photos/01.jpeg`,
       description:
         "Maybe this wasn't the first moment of our story, but it is one of the moments I would always choose to remember. Every picture with you reminds me how lucky I am to have you in my life.",
       sticker: "my favorite",
     },
+
     {
       date: "Us, Together",
       title: "Little Moments, Big Memories ✨",
-      image: "/photos/15.jpeg",
+      image: `${base}photos/15.jpeg`,
       description:
         "Some memories don't need a special occasion. Just being together, laughing, talking, and enjoying the little things is already enough to make an ordinary day feel special.",
       sticker: "our moments",
     },
+
     {
       date: "Our Pre-Wedding Chapter",
       title: "Before You Become My Wife 💍",
-      image: "/photos/hero.jpg",
+      image: `${base}photos/hero.jpg`,
       description:
         "And here we are, standing right before one of the biggest chapters of our lives. These pictures are more than just memories. They are a little reminder of the beginning of our forever.",
       sticker: "almost forever",
@@ -40,32 +45,37 @@ export const siteData = {
 
   gallery: [
     {
-      image: "/photos/01.jpeg",
+      image: `${base}photos/01.jpeg`,
       caption: "My favorite person",
       rotate: -2,
     },
+
     {
-      image: "/photos/16.jpeg",
+      image: `${base}photos/16.jpeg`,
       caption: "One of my favorite memories",
       rotate: 2,
     },
+
     {
-      image: "/photos/12.jpg",
+      image: `${base}photos/12.jpg`,
       caption: "Just you and me",
       rotate: -1,
     },
+
     {
-      image: "/photos/09.jpeg",
+      image: `${base}photos/09.jpeg`,
       caption: "Our little story",
       rotate: 3,
     },
+
     {
-      image: "/photos/02.jpeg",
+      image: `${base}photos/02.jpeg`,
       caption: "That beautiful smile",
       rotate: -3,
     },
+
     {
-      image: "/photos/hero.jpg",
+      image: `${base}photos/hero.jpg`,
       caption: "Almost our forever",
       rotate: 2,
     },
