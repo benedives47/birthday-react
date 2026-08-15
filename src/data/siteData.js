@@ -8,7 +8,7 @@ export const siteData = {
   music: `${base}music/birthday.mp3`,
 
   hero: {
-    eyebrow: "Happy Birthday",
+    eyebrow: "25 Years of You ✨",
     title: "ECA",
     subtitle: "Today is a little celebration of you.",
     note: "One more birthday before I get to call you my wife. ❤️",
@@ -99,10 +99,10 @@ video: {
 
       "Thank you for choosing me, for staying beside me, and for being the person I get to call mine. This little website is just a small way of saying how much you mean to me.",
 
-      "Happy birthday, my love. Enjoy your day, smile as much as you can, and remember that someone out there is incredibly grateful to have you in his life.",
+      "Happy birthday, my baby. Enjoy your day, smile as much as you can, and remember that someone out there is incredibly grateful to have you in his life.",
     ],
 
-    sign: "With all my love,",
+    sign: "With all my baby,",
     signature: "Dwi ❤️",
   },
 
@@ -119,12 +119,12 @@ video: {
   },
 
   ending: {
-    title: "Happy Birthday",
+    title: "25 Years of You",
 
-    name: "Eca ❤️",
+    name: "Happy Birthday, Baby ❤️",
 
     message:
-      "This birthday is extra special because it comes just before the beginning of our forever. Next week, you become my wife, and I get to call you my family. I can't wait to make more memories, more stories, and more beautiful little moments with you. Happy birthday, my love. ❤️",
+      "This birthday is extra special because it comes just before the beginning of our forever. Next week, you become my wife, and I get to call you my family. I can't wait to make more memories, more stories, and more beautiful little moments with you. Happy birthday, my baby. ❤️",
   },
 };
 
