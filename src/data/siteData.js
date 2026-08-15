@@ -81,10 +81,10 @@ export const siteData = {
     },
   ],
 video: {
-    title: "A Little Memory 🎥",
-    subtitle: "A few seconds of us, but a memory I'll keep forever.",
-    src: `${base}videos/prewed.mp4`,
-  },
+  title: "A Little Birthday Surprise 🎥",
+  subtitle: "I made this little video just for you. ❤️",
+  src: `${base}videos/birthday.mp4`,
+},
   letter: {
     greeting: "Dear Eca,",
 
