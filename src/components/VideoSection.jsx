@@ -5,9 +5,9 @@ export default function VideoSection() {
   return (
     <section
       id="video"
-      className="relative px-5 py-24 overflow-hidden"
+      className="relative overflow-hidden px-5 py-24"
     >
-      <div className="mx-auto max-w-4xl text-center">
+      <div className="mx-auto text-center">
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -15,7 +15,7 @@ export default function VideoSection() {
           viewport={{ once: true }}
           className="mb-3 text-sm uppercase tracking-[0.3em]"
         >
-          A Little Memory
+          A Little Surprise
         </motion.p>
 
         <motion.h2
@@ -37,14 +37,14 @@ export default function VideoSection() {
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.96 }}
+          initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="mx-auto mt-10 overflow-hidden rounded-3xl shadow-2xl"
+          className="mx-auto mt-10 w-full max-w-[420px] overflow-hidden rounded-[28px] shadow-2xl"
         >
           <video
-            className="w-full"
+            className="aspect-[9/16] h-auto w-full object-cover"
             src={siteData.video.src}
             controls
             playsInline
